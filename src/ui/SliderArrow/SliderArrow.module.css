@@ -1,0 +1,29 @@
+.slider-arrow {
+	padding: 0;
+	border: none;
+	background: var(--orange-color);
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.slider-arrow svg {
+	width: 10px;
+	height: 18px;
+}
+
+.slider-arrow.next svg {
+	transform: rotate(180deg) translateX(-1px);
+}
+.slider-arrow.prev svg {
+	transform: translateX(-1px);
+}
+
+.slider-arrow:disabled {
+	opacity: 0.7;
+}

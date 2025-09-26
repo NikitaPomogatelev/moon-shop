@@ -1,0 +1,41 @@
+.popular__card {
+	border-radius: 10px;
+	width: 289px;
+
+	box-shadow: 0 4px 10px 0 rgba(106, 99, 118, 0.1);
+	background: var(--white-color);
+	overflow: hidden;
+}
+
+.popular__card-image {
+	width: 289px;
+	height: 250px;
+}
+
+.popular__card-content {
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--blue-700);
+}
+
+.popular__card-content h3 {
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--blue-900);
+}
+
+.popular__card-content address {
+	font-style: normal;
+}
+
+.popular h3 {
+	font-weight: 600;
+	font-size: 32px;
+	text-align: center;
+	color: var(--white-color);
+}

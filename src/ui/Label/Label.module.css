@@ -1,0 +1,51 @@
+.label-vip {
+	padding: 8px 10px;
+
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color: #f80;
+
+	border-radius: 4px;
+	background-color: var(--orange-20);
+	z-index: 1;
+}
+
+.discount-label {
+	padding: 5px 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--white-color);
+	background: var(--red-70);
+	border-radius: 4px;
+}
+
+.expire-label {
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--blue-700);
+
+	border-radius: 4px;
+	padding: 8px;
+
+	background: var(--blue-10);
+}
+
+.views-label {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--blue-900);
+
+	padding: 8px;
+	background: var(--blue-10);
+	border-radius: 4px;
+}
+
+.views-label img {
+	width: 20px;
+	height: 20px;
+}

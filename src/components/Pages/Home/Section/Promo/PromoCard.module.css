@@ -1,0 +1,51 @@
+.promo-card {
+	padding: 16px;
+	background: var(--white-color);
+	box-shadow: 0 4px 10px 0 rgba(106, 99, 118, 0.1);
+	border-radius: 10px;
+}
+
+.promo-card__top {
+	position: relative;
+	width: 360px;
+	height: 250px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.promo-card__top img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.promo__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.promo-card__discount-label {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+}
+
+.promo-card__expire-label {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+}
+
+.promo-card__views-label {
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+}
+
+.promo-card__title {
+	margin: 16px 0 24px 0;
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--blue-800);
+}

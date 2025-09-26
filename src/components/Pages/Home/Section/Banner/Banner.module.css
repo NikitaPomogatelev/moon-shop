@@ -1,0 +1,49 @@
+.banner {
+	padding: 75px 0;
+}
+
+.banner__card {
+	padding: 40px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--blue-900);
+	border-radius: 10px;
+}
+
+.banner__content {
+	max-width: 538px;
+	font-family: var(--font)
+}
+
+.banner__title {
+	font-weight: 600;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+
+.banner__descr {
+	margin-top: 16px;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--blue-10);
+}
+
+.banner__btn {
+	margin-top: 24px;
+}
+
+
+.banner__image {
+	width: 363px;
+	height: 430px;
+}
+
+.banner__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}

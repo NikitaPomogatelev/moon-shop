@@ -1,0 +1,81 @@
+.category-tabs__group {
+	display: flex;
+	gap: 20px;
+}
+
+.tab {
+	border: none;
+	width: 185px;
+	height: 145px;
+	
+	font-family: var(--font);
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--blue-700);
+	background-color: var(--orange-10);
+
+	border-radius: 10px;
+	transition: all 0.3s ease-in;
+
+	cursor: pointer;
+}
+
+
+
+
+.tab.tab--more {
+	background: var(--blue-10);
+}
+
+
+.tab:hover,
+.tab.active {
+	background: var(--orange-70);
+	color: var(--white-color);
+}
+
+.sub-tab {
+	border: none;
+	padding: 10px;
+	min-width: 150px;
+
+	font-family: var(--font);
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--blue-700);
+	background-color: var(--blue-10);
+
+	border-radius: 40px;
+	transition: all 0.3s ease-in;
+
+	cursor: pointer;
+}
+
+
+
+.sub-tab:hover,
+.sub-tab.active {
+	background: var(--orange-70);
+	color: var(--white-color);
+}
+
+
+
+/* Сабкатегории */
+.sub-tabs__group {
+	display: flex;
+	gap: 8px;
+}
+
+.sub-tabs__row {
+	padding: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sub-tabs__title {
+	font-weight: 600;
+	font-size: 32px;
+	color: var(--blue-900);
+}

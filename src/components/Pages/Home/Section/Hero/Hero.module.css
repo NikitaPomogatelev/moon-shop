@@ -1,0 +1,26 @@
+.hero {
+	padding: 64px 0 75px;
+}
+
+.hero-top {
+	margin-bottom: 40px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.hero__heading {
+	max-width: 724px;
+}
+
+.hero__search {
+	width: 100%;
+	max-width: 408px;
+}
+
+
+.city {
+	white-space: nowrap;
+	color: var(--blue-700);
+}

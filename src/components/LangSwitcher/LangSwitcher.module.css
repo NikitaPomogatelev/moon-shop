@@ -1,0 +1,29 @@
+.lang-switcher {
+	border: none;
+	background: transparent;
+	padding: 0;
+
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	cursor: pointer;
+}
+
+
+.flag-icon {
+	width: 24px;
+	height: 18px;
+}
+.arrow-icon svg,
+.flag-icon svg {
+	display: block;
+	width: inherit;
+	height: inherit;
+	object-fit: contain;
+}
+
+
+.arrow-icon {
+	width: 14px;
+	height: 9px;
+}

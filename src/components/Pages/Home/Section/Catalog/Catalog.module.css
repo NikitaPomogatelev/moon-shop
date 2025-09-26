@@ -1,0 +1,15 @@
+.catalog {
+	padding: 75px 0;
+
+}
+
+.catalog__btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.catalog__title {
+	margin-bottom: 40px;
+	text-align: center;
+}

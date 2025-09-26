@@ -1,0 +1,43 @@
+.button {
+  background-color: transparent;
+
+  padding: 14px 36px;
+
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+
+  border-radius: 40px;
+  border: 2px solid transparent;
+
+  cursor: pointer;
+  transition: background-color 0.25s;
+  will-change: background-color;
+}
+
+.button--accent {
+  background-color: var(--orange-color);
+  border-color: var(--orange-color);
+}
+
+.button--stroked {
+  padding: 14px 55px;
+  background-color: transparent;
+  border-color: var(--orange-color);
+  color: var(--orange-color);
+}
+
+.button--accent:focus,
+.button--accent:active,
+.button--accent:hover {
+  background-color: transparent;
+}
+
+.button--stroked:focus,
+.button--stroked:active,
+.button--stroked:hover {
+  background-color: var(--orange-color);
+  border-color: var(--orange-color);
+  color: var(--white-color);
+}

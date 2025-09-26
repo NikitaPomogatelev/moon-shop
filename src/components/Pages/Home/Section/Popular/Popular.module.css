@@ -1,0 +1,20 @@
+.popular {
+	padding: 64px 0 75px;
+}
+
+.popular-swiper :global(.swiper-slide) {
+	width: auto !important;
+}
+
+.popular-top {
+	margin-bottom: 40px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.popular__arrow-group {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}

@@ -1,0 +1,21 @@
+.card__rate-group {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	font-size: 16px;
+}
+
+.card__rate-icon {
+	width: 24px;
+	height: 24px;
+}
+
+.card__rate-group strong {
+	font-weight: 500;
+}
+
+.card__rate-count {
+	font-weight: 400;
+	color: var(--blue-700);
+}

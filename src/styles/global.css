@@ -1,0 +1,93 @@
+:root {
+  --font: 'Gilroy', sans-serif;
+  --white-color: #fff;
+  --black-color: #000;
+  --blue-color: #000;
+  --orange-color: #ff941a;
+
+  --blue-30: #b5b7c3;
+  --blue-50: #83879b;
+  --blue-20: #cdcfd7;
+  --blue-700: #515674;
+  --red-90: #af0932;
+  --blue-900: #20264c;
+  --blue: #070e38;
+  --red-70: #f3164e;
+  --white-100: #fff;
+  --orange-40: #ffd099;
+  --red-30: #fbb1c4;
+  --orange-10: #fff3e5;
+  --orange-70: #ffac4d;
+  --orange-20: #ffe7cc;
+  --blue-800: #393e60;
+  --blue-10: #e6e7eb;
+  --orange-30: #ffdbb3;
+  --red-20: #fdd8e1;
+  --red-80: #d50b3e;
+  --blue-100: #070e38;
+  --red-60: #f53d6b;
+  --blue-40: #9c9faf;
+  --white: #fff;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Regular'), local('Gilroy-Regular'),
+    url('@/assets/fonts/Gilroy-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+    url('@/assets/fonts/Gilroy-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+div#root {
+  min-height: inherit;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+  color: var(--black-color);
+
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  padding-top: 82px;
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1256px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
