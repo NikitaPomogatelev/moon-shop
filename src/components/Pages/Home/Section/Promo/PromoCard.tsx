@@ -1,9 +1,7 @@
 import styles from "./PromoCard.module.css";
 import ShopItem from "@/components/Base/ShopItem/ShopItem";
 import type { PromoCard as IPromoCard } from "@/interfaces/promoCard.interface";
-import { DiscountLabel, ExpireLabel, ViewsLabel } from '@/ui/Label';
-// import ExpireLabel from '../../../../../ui/Label/ExpireLabel';
-// import ViewsLabel from '../../../../../ui/Label/ViewsLabel';
+import { DiscountLabel, ExpireLabel, ViewsLabel } from "@/ui/Label";
 
 interface PromoCardProps {
   item: IPromoCard;
@@ -20,9 +18,24 @@ const PromoCard = ({ item }: PromoCardProps) => {
           alt={`Акция: ${item.title}`}
         />
 
-        <DiscountLabel discount={item.discount} className={styles["promo-card__discount-label"]} />
-        <ExpireLabel expireDate={item.expireDate} className={styles["promo-card__expire-label"]} />
-        <ViewsLabel views={item.views} className={styles["promo-card__views-label"]} />
+        {item?.discount && (
+          <DiscountLabel
+            discount={item.discount}
+            className={styles["promo-card__discount-label"]}
+          />
+        )}
+        {item?.expireDate && (
+          <ExpireLabel
+            expireDate={item.expireDate}
+            className={styles["promo-card__expire-label"]}
+          />
+        )}
+        {item?.views && (
+          <ViewsLabel
+            views={item.views}
+            className={styles["promo-card__views-label"]}
+          />
+        )}
       </div>
       <h3 className={styles["promo-card__title"]}>{item.title}</h3>
       <ShopItem

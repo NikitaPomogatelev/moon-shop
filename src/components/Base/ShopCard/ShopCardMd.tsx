@@ -17,7 +17,7 @@ const ShopCardMd = ({ item }: { item: IShopItem }) => {
             <img src="/premium/logo-2@2x.png" alt="Изображение магазина" />
           </div>
 
-          <VipLabel label={item.vip} className={styles["card-md__label-vip"]} />
+        {item?.vip && <VipLabel label={item.vip} className={styles["card-md__label-vip"]} />}  
         </div>
         <div className={styles["card-md__content"]}>
           <div className={styles["card-md__row"]}>

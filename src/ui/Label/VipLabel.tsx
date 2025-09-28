@@ -2,7 +2,7 @@ import styles from "./Label.module.css";
 import cn from 'classnames'
 
 interface VipLabelProps {
-  label?: string;
+  label?: boolean;
   className?: string;
 }
 

@@ -1,6 +1,5 @@
 import styles from "./ShopCard.module.css";
 import ShopItem from "../ShopItem/ShopItem";
-import StepperImage from './StepperImage';
 import Rate from '../Rate/Rate';
 import ButtonFavorite from '@/ui/ButtonFavorite/ButtonFavorite';
 import type { ShopItem as IShopItem } from '@/interfaces/shopItem.interface';
